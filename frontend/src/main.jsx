@@ -3,7 +3,7 @@ import {createRoot} from "react-dom/client";
 import {ShieldCheck,FileText,Target,Brain,LogOut,Upload,Download,Compass,Sparkles,Menu,Search} from "lucide-react";
 import "./styles.css";
 
-const API=(import.meta.env.VITE_API_URL || "http://127.0.0.1:5000/api").replace(/\/$/, "");
+const API="https://cv-pilot-backend-slqp.onrender.com/api";
 const empty={name:"",email:"",phone:"",location:"",summary:"",education:"",skills:"",experience:"",projects:"",certifications:"",linkedin:"",github:""};
 const nav=[['builder','Resume Builder',FileText],['upload','Analyze Existing',Upload],['analyzer','ATS & Improve',Sparkles],['matcher','Job Matcher',Target],['career','Where To Apply',Compass],['interview','Interview Prep',Brain]];
 
